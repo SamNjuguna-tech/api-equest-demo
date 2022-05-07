@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#profile{
+	display: grid;
+	grid-template-columns:  repeat(auto-fit, minmax( 200px, 1fr) );
+	
+	justify-content: center;
+	margin: 10px;
+	background-color: #fff;
+	color :#1c1c;
+	justify-content: center;
+
+
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*margin: 10px;*/
+	background-color: #fff;
+	color: #1c1c1c;
+
+	
+	
+}
+.container>*:hover{
+	cursor: pointer;
+}
+.container >*{
+	margin: 5px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.name{
+	color: #fff;
+	background-color: #333333;
+	height: 2rem;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px 35px;
+}
+.email{
+	color: #fff;
+	background-color: #333333;
+	height: 2rem;
+
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px 35px;
+}
