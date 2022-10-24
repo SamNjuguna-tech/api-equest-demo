@@ -6,24 +6,28 @@
 
 .main-container{
     /* height: 100vh; */
-    background-color:#090a20 ;
+    background-color:rgb(35, 44, 49);
     color: #fff;
     padding-top: 1px;
     margin-top: -1px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-around;
 }
+
+
+
 .profile-card{
     position: relative;
-    width: 20rem;
+    max-width: 18rem;
+    min-width: 14.5rem;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    margin: 3rem 2rem;
+    margin: 3rem ;
     padding: 1rem;
     display: flex;
     flex-direction: column;
